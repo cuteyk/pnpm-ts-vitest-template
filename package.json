@@ -1,0 +1,22 @@
+{
+  "name": "sdk",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "types": "./lib/typings/index.d.ts",
+  "description": "sdk template",
+  "scripts": {
+    "build": "tsc",
+    "ts-check": "tsc --noEmit",
+    "test": "vitest run --coverage",
+    "test:watch": "vitest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "latest",
+    "@vitest/coverage-c8": "^0.27.1",
+    "prettier": "^2.6.2",
+    "typescript": "^4.9.3",
+    "vite": "^3.1.8",
+    "vitest": "^0.24.3"
+  }
+}
