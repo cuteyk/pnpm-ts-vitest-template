@@ -18,5 +18,6 @@
 import { isEven } from '../index'
 
 it('test name', () => {
+  const s = isEven(10)
   expect(isEven(10)).toBe(true)
 })
